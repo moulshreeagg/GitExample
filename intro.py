@@ -1,3 +1,9 @@
+def rec_area (width, height):
+	return width*height
+
+def add (a,b):
+	return a+b
+
 def welcome_student(name,age):
 	print "Morning " + name
 	print "Your age is: "+str (age)
@@ -10,6 +16,10 @@ def welcome_student(name,age):
 		print "Go to University"
 
 def main():
+	sum= add(3,2)
+	print "sum 3+2=" +str(sum)
+	area= rec_area(45,20)
+	print "Area of a rectange with width 45 cm and height 20 cm is " +str(area) +" sq cms."
 	print "Hi"
 
 	for i in range(3):
